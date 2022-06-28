@@ -7,10 +7,10 @@ mv translations/zh_cn translations/zh
 
 # Create a directory for api (locale)
 # rm -rf locale
-mkdir locales
+# mkdir locales
 
 # Copy all subdirectories to locale
-cp -r translations/ locales/
+# cp -r translations/ locales/
 
 # Loop over each directory and create another directory LC_Messages
 # Move django.po files to LC_Messages and remove messages.po
@@ -31,9 +31,9 @@ cp -r translations/ locales/
 
 # cd _clones/
 
-ansible_hub_ui_path="pinakes/locales" # locale will be dropped here
+ansible_hub_ui_path="locale" # locale will be dropped here
 
-rsync -av locales/ $ansible_hub_ui_path
+rsync -av translations/ $ansible_hub_ui_path
 
 rm -rf translations/
 # rm -rf locales/
