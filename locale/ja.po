@@ -4,13 +4,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: ja\n"
+"Language: en\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Plural-Forms: \n"
 
 #: src/components/headers/collection-header.tsx:201
 msgid "(latest)"
@@ -286,7 +285,7 @@ msgstr "ブラウザー OS"
 
 #: src/components/about-modal/about-modal.tsx:104
 msgid "Browser Version"
-msgstr "ブラウザーのバージョン"
+msgstr "ブラウザーバージョン"
 
 #: src/components/repositories/remote-form.tsx:597
 msgid "CA certificate"
@@ -339,7 +338,7 @@ msgstr "このコレクションに依存する<0/>コレクションが削除�
 #: src/components/headers/collection-header.tsx:697
 #: src/containers/certification-dashboard/certification-dashboard.tsx:532
 msgid "Certificate for collection \"{0} {1} v{2}\" has been successfully uploaded."
-msgstr ""
+msgstr "コレクション \"{0} {1} v{2}\" の証明書が正常にアップロードされました。"
 
 #: src/containers/certification-dashboard/certification-dashboard.tsx:587
 msgid "Certification status for collection \"{0} {1} v{2}\" has been successfully updated."
@@ -471,20 +470,20 @@ msgstr "コレクション"
 #: src/components/headers/collection-header.tsx:877
 #: src/containers/search/search.tsx:315
 msgid "Collection \"{0}\" could not be deprecated."
-msgstr ""
+msgstr "コレクション \"{0}\" を非推奨化できませんでした。"
 
 #: src/components/headers/collection-header.tsx:878
 #: src/containers/search/search.tsx:316
 msgid "Collection \"{0}\" could not be undeprecated."
-msgstr ""
+msgstr "コレクション \"{0}\" の非推奨化を解除できませんでした。"
 
 #: src/containers/namespace-detail/namespace-detail.tsx:407
 msgid "Collection \"{0}\" has been successfully deprecated."
-msgstr ""
+msgstr "コレクション \"{0}\" が正常に非推奨化されました。"
 
 #: src/containers/namespace-detail/namespace-detail.tsx:406
 msgid "Collection \"{0}\" has been successfully undeprecated."
-msgstr ""
+msgstr "コレクション \"{0}\" の非推奨化が正常に解除されました。"
 
 #: src/components/headers/collection-header.tsx:992
 msgid "Collection \"{name} v{collectionVersion}\" could not be deleted."
@@ -699,11 +698,11 @@ msgstr "新規名前空間の作成"
 
 #: src/components/user-form/user-form.tsx:97
 #~ msgid "Create a password using at least 9 characters, including special characters , ex <!@$%>. Avoid using common names or expressions."
-#~ msgstr "特殊文字 (例: <!@$%>) を含めた 9 文字以上のパスワードを作成します。一般的な名前または式は使用しないでください。"
+#~ msgstr "Create a password using at least 9 characters, including special characters , ex <!@$%>. Avoid using common names or expressions."
 
 #: src/components/user-form/user-form.tsx:99
 msgid "Create a password using at least {minLength} characters, including special characters , ex <!@$%>. Avoid using common names or expressions."
-msgstr ""
+msgstr "特殊文字 (例: <!@$%>) を含めた {minLength} 文字以上のパスワードを作成します。一般的な名前または語句は使用しないでください。"
 
 #: src/constants.tsx:165
 #: src/constants.tsx:205
@@ -720,7 +719,7 @@ msgstr "新規ユーザーの作成"
 #: src/containers/group-management/group-detail.tsx:821
 #: src/containers/user-management/user-list.tsx:286
 msgid "Created"
-msgstr "作成済み"
+msgstr "作成日時"
 
 #: src/containers/task-management/task-list-view.tsx:231
 #: src/containers/task-management/task_detail.tsx:178
@@ -947,7 +946,7 @@ msgstr "非推奨"
 
 #: src/containers/namespace-detail/namespace-detail.tsx:393
 msgid "Deprecation status update starting for collection \"{0}\"."
-msgstr ""
+msgstr "コレクション \"{0}\" の非推奨ステータスの更新が開始されています。"
 
 #: src/components/collection-detail/collection-content-list.tsx:109
 #: src/components/execution-environment/repository-form.tsx:368
@@ -975,7 +974,7 @@ msgstr "ダイジェスト"
 
 #: src/components/repositories/local-repository-table.tsx:64
 msgid "Distribution URL"
-msgstr ""
+msgstr "ディストリビューション URL"
 
 #: src/components/repositories/local-repository-table.tsx:44
 msgid "Distribution name"
@@ -1030,7 +1029,7 @@ msgstr "ここにファイルをドラッグするか、参照してアップロ
 
 #: src/components/signing/upload-sign-certificate-modal.tsx:57
 msgid "Drag and drop a file or upload one'"
-msgstr ""
+msgstr "ファイルをドラッグアンドドロップするか、アップロード"
 
 #: src/components/patternfly-wrappers/stateful-dropdown.tsx:78
 #: src/components/patternfly-wrappers/stateful-dropdown.tsx:89
@@ -1281,7 +1280,7 @@ msgstr "実行環境"
 
 #: src/containers/execution-environment-list/execution_environment_list.tsx:450
 msgid "Execution environment \"{0}\" has been added successfully."
-msgstr ""
+msgstr "実行環境 \"{0}\" が正常に追加されました。"
 
 #: src/containers/execution-environment/registry-list.tsx:543
 msgid "Execution environment \"{name}\" could not be indexed."
@@ -1289,7 +1288,7 @@ msgstr "実行環境 \"{name}\" をインデックス化できませんでした
 
 #: src/containers/execution-environment-list/execution_environment_list.tsx:448
 #~ msgid "Execution environment \"{name}\" has been added successfully."
-#~ msgstr "実行環境 \"{name}\" が正常に追加されました。"
+#~ msgstr "Execution environment \"{name}\" has been added successfully."
 
 #: src/components/delete-modal/delete-execution-environment-modal.tsx:91
 msgid "Execution environment \"{selectedItem}\" could not be deleted."
@@ -1595,7 +1594,7 @@ msgstr "キーワード"
 
 #: src/containers/execution-environment-list/execution_environment_list.tsx:304
 msgid "Last modified"
-msgstr "最終更新日"
+msgstr "最終変更日時"
 
 #: src/components/user-form/user-form.tsx:90
 #: src/containers/group-management/group-detail.tsx:730
@@ -1812,11 +1811,11 @@ msgstr "レビューが必要"
 
 #: src/containers/certification-dashboard/certification-dashboard.tsx:344
 msgid "Needs review"
-msgstr ""
+msgstr "レビューが必要"
 
 #: src/containers/certification-dashboard/certification-dashboard.tsx:343
 msgid "Needs signature and review"
-msgstr ""
+msgstr "署名とレビューが必要"
 
 #: src/components/import-modal/import-modal.tsx:59
 msgid "New collection"
@@ -2076,7 +2075,7 @@ msgstr "アクセス権を最初に編集してください。"
 
 #: src/components/signing/upload-sign-certificate-modal.tsx:53
 msgid "Please select a signature file to upload."
-msgstr ""
+msgstr "アップロードする署名ファイルを選択してください。"
 
 #: src/components/import-modal/import-modal.tsx:149
 msgid "Please select no more than one file."
@@ -2360,7 +2359,7 @@ msgstr "リポジトリー管理"
 
 #: src/components/repositories/local-repository-table.tsx:64
 #~ msgid "Repo URL"
-#~ msgstr "リポジトリー URL"
+#~ msgstr "Repo URL"
 
 #: src/components/repositories/remote-repository-table.tsx:69
 msgid "Repositories"
@@ -2424,7 +2423,7 @@ msgstr "実行環境 \"{0}\" への変更を保存しました。"
 
 #: src/containers/execution-environment-list/execution_environment_list.tsx:453
 #~ msgid "Saved changes to execution environment \"{name}\"."
-#~ msgstr "実行環境 \"{name}\" への変更を保存しました。"
+#~ msgstr "Saved changes to execution environment \"{name}\"."
 
 #: src/containers/edit-namespace/edit-namespace.tsx:277
 msgid "Saved changes to namespace \"{0}\"."
@@ -2516,7 +2515,7 @@ msgstr "サーバーエラー。後でもう一度お試しください。"
 
 #: src/components/about-modal/about-modal.tsx:85
 msgid "Server version"
-msgstr "バージョンの選択t"
+msgstr "サーバーバージョン"
 
 #: src/containers/settings/user-profile.tsx:77
 msgid "Settings"
@@ -2545,7 +2544,7 @@ msgstr "すべて署名する"
 #: src/components/signing/sign-all-certificates-modal.tsx:39
 #: src/containers/namespace-detail/namespace-detail.tsx:645
 msgid "Sign all collections"
-msgstr "すべてのコレクションに署名する"
+msgstr "すべてのコレクションへの署名"
 
 #: src/containers/certification-dashboard/certification-dashboard.tsx:416
 #: src/containers/certification-dashboard/certification-dashboard.tsx:449
@@ -2554,7 +2553,7 @@ msgstr "署名および承認"
 
 #: src/components/headers/collection-header.tsx:256
 msgid "Sign entire collection"
-msgstr "コレクション全体の署名"
+msgstr "コレクション全体への署名"
 
 #: src/components/collection-list/collection-filter.tsx:68
 msgid "Sign state"
@@ -2562,11 +2561,11 @@ msgstr "署名状態"
 
 #: src/components/headers/collection-header.tsx:273
 msgid "Sign version {0}"
-msgstr "バージョン {0} に署名する"
+msgstr "バージョン {0} への署名"
 
 #: src/components/signing/sign-single-certificate-modal.tsx:27
 msgid "Sign version {version}"
-msgstr "バージョン {version} に署名する"
+msgstr "バージョン {version} への署名"
 
 #: src/components/collection-detail/download-signature-grid-item.tsx:33
 msgid "Signature"
@@ -2587,11 +2586,11 @@ msgstr "署名済みのみ"
 
 #: src/components/signing/sign-all-certificates-modal.tsx:67
 msgid "Signed version(s)"
-msgstr ""
+msgstr "署名済みバージョン"
 
 #: src/components/signing/sign-all-certificates-modal.tsx:85
 msgid "Signing service selector:"
-msgstr ""
+msgstr "署名サービスセレクター:"
 
 #: src/containers/namespace-detail/namespace-detail.tsx:450
 msgid "Signing started for all collections in namespace \"{0}\"."
@@ -2790,7 +2789,7 @@ msgstr "タスクの詳細"
 
 #: src/utilities/wait-for-task.ts:10
 msgid "Task failed without error message."
-msgstr ""
+msgstr "エラーメッセージなしでタスクに失敗しました。"
 
 #: src/containers/task-management/task_detail.tsx:194
 msgid "Task group"
@@ -2831,7 +2830,7 @@ msgstr "タスクは作成後に表示されます。"
 #: src/components/headers/collection-header.tsx:262
 #: src/containers/search/search.tsx:333
 #~ msgid "Temporarily disabled due to sync issues. (AAH-1237)"
-#~ msgstr "同期の問題により一時的に無効です。(AAH-1237)"
+#~ msgstr "Temporarily disabled due to sync issues. (AAH-1237)"
 
 #: src/components/namespace-form/namespace-form.tsx:192
 msgid "Text: {0}"
@@ -2848,21 +2847,21 @@ msgstr "外部コンテンツソースの URL。"
 #: src/components/headers/collection-header.tsx:708
 #: src/containers/certification-dashboard/certification-dashboard.tsx:544
 msgid "The certificate for \"{0} {1} v{2}\" could not be saved."
-msgstr ""
+msgstr "\"{0} {1} v{2}\" の証明書を保存できませんでした。"
 
 #: src/components/headers/collection-header.tsx:676
 msgid "The certificate for \"{0} {1} v{2}\" is being uploaded."
-msgstr ""
+msgstr "\"{0} {1} v{2}\" の証明書をアップロードしています。"
 
 #: src/components/headers/collection-header.tsx:852
 #: src/containers/search/search.tsx:293
 msgid "The collection \"{0}\" has been successfully deprecated."
-msgstr ""
+msgstr "コレクション \"{0}\" が正常に非推奨化されました。"
 
 #: src/components/headers/collection-header.tsx:853
 #: src/containers/search/search.tsx:294
 msgid "The collection \"{0}\" has been successfully undeprecated."
-msgstr ""
+msgstr "コレクション \"{0}\" の非推奨化が正常に解除されました。"
 
 #: src/components/import-modal/import-modal.tsx:174
 msgid "The collection you have selected does not match this namespace."
@@ -2923,7 +2922,7 @@ msgstr "このアカウントは、名前空間の管理設定がされていま
 
 #: src/components/signing/sign-all-certificates-modal.tsx:47
 #~ msgid "This action will affect <0>{numberOfAffected}</0> version(s)."
-#~ msgstr "このアクションは、<0>{numberOfAffected}</0> バージョンに影響します。"
+#~ msgstr "This action will affect <0>{numberOfAffected}</0> version(s)."
 
 #: src/components/headers/collection-header.tsx:543
 msgid "This collection has been deprecated."
@@ -2931,7 +2930,7 @@ msgstr "このコレクションは非推奨になりました。"
 
 #: src/containers/collection-detail/collection-dependencies.tsx:157
 msgid "This collection is being used by"
-msgstr "このコレクションのユーザー: "
+msgstr "このコレクションのユーザー:"
 
 #: src/containers/collection-detail/collection-dependencies.tsx:145
 msgid "This collections requires the following collections for use"
@@ -3015,7 +3014,7 @@ msgstr "未署名"
 
 #: src/components/signing/sign-all-certificates-modal.tsx:74
 msgid "Unsigned version(s)"
-msgstr ""
+msgstr "未署名バージョン"
 
 #: src/constants.tsx:207
 msgid "Update container information"
@@ -3023,7 +3022,7 @@ msgstr "コンテナー情報の更新"
 
 #: src/components/collection-list/collection-list-item.tsx:118
 msgid "Updated <0/>"
-msgstr "<0/> を更新"
+msgstr "<0/> に更新"
 
 #: src/components/import-modal/import-modal.tsx:71
 #: src/components/signing/upload-sign-certificate-modal.tsx:46
@@ -3045,7 +3044,7 @@ msgstr "新規バージョンのアップロード"
 #: src/components/signing/upload-sign-certificate-modal.tsx:33
 #: src/containers/certification-dashboard/certification-dashboard.tsx:401
 msgid "Upload signature"
-msgstr ""
+msgstr "署名のアップロード"
 
 #: src/constants.tsx:196
 #: src/constants.tsx:204
@@ -3126,19 +3125,19 @@ msgstr "ユーザー \"{0}\" が正常に削除されました。"
 
 #: src/containers/group-management/group-detail.tsx:914
 msgid "User \"{0}\" has been successfully removed from group \"{name}\"."
-msgstr ""
+msgstr "ユーザー \"{0}\" がグループ \"{name}\" から正常に削除されました。"
 
 #: src/containers/group-management/group-detail.tsx:921
 #~ msgid "User \"{0}\" has been successfully removed group \"{name}\"."
-#~ msgstr ""
+#~ msgstr "User \"{0}\" has been successfully removed group \"{name}\"."
 
 #: src/containers/group-management/group-detail.tsx:608
 msgid "User <0>{username}</0> will be removed from group <1>{groupname}</1>."
-msgstr ""
+msgstr "ユーザー <0>{username}</0> がグループ <1>{groupname}</1> から削除されます。"
 
 #: src/containers/group-management/group-detail.tsx:608
 #~ msgid "User <0>{username}</0> will be removed from group<1>{groupname}</1>."
-#~ msgstr "ユーザー <0>{username}</0> がグループ <1>{groupname}</1> から削除されます。"
+#~ msgstr "User <0>{username}</0> will be removed from group<1>{groupname}</1>."
 
 #: src/loaders/standalone/standalone-loader.tsx:395
 msgid "User Access"
@@ -3307,11 +3306,11 @@ msgstr "はい"
 #: src/containers/task-management/task-list-view.tsx:353
 #: src/containers/task-management/task_detail.tsx:366
 msgid "Yes, stop"
-msgstr "はい、停止する"
+msgstr "はい、停止します"
 
 #: src/components/signing/sign-all-certificates-modal.tsx:40
 #~ msgid "You are about to sign <0>all</0> versions under <1>{name}</1>."
-#~ msgstr "<1>{name}</1> として <0>すべての</0> バージョンに署名しようとしています。"
+#~ msgstr "You are about to sign <0>all</0> versions under <1>{name}</1>."
 
 #: src/components/signing/sign-single-certificate-modal.tsx:40
 msgid "You are about to sign <0>version {version}</0> under <1>{name}</1>."
@@ -3319,7 +3318,7 @@ msgstr "<1>{name}</1> として <0>バージョン {version}</0> に署名しよ
 
 #: src/components/signing/sign-all-certificates-modal.tsx:58
 msgid "You are about to sign <0>{numberOfAffected}</0> version(s) under <1>{name}</1>."
-msgstr ""
+msgstr "<1>{name}</1> として <0>{numberOfAffected}</0> バージョンに署名しようとしています。"
 
 #: src/containers/token/token-standalone.tsx:73
 msgid "You are an SSO user. Your token will expire <0/>."
@@ -3348,11 +3347,11 @@ msgstr "Automation Hub にアクセスできません。"
 #: src/components/headers/collection-header.tsx:583
 #: src/containers/search/search.tsx:385
 msgid "You don't have rights to do this operation."
-msgstr ""
+msgstr "この操作を行う権限がありません。"
 
 #: src/components/collection-detail/collection-info.tsx:88
 msgid "You have to be logged in to be able to download the tarball."
-msgstr "tarball をダウンロードするには、ログインしておく必要があります。"
+msgstr "tarball をダウンロードするには、ログインしている必要があります。"
 
 #: src/containers/edit-namespace/edit-namespace.tsx:208
 msgid "You have unsaved changes"
@@ -3391,7 +3390,7 @@ msgstr "/"
 
 #: src/components/patternfly-wrappers/pagination.tsx:65
 msgid "per page"
-msgstr "ページ別"
+msgstr "項目/ページ"
 
 #: src/components/helper-text/helper-text.tsx:17
 msgid "popover example"
@@ -3455,19 +3454,19 @@ msgstr "{company} ロゴ"
 
 #: src/components/numeric-label/numeric-label.tsx:84
 msgid "{count, plural, one {Dependency} other {Dependencies}}"
-msgstr ""
+msgstr "{count, plural, one {Dependency} other {Dependencies}}"
 
 #: src/components/numeric-label/numeric-label.tsx:72
 msgid "{count, plural, one {Module} other {Modules}}"
-msgstr ""
+msgstr "{count, plural, one {Module} other {Modules}}"
 
 #: src/components/numeric-label/numeric-label.tsx:80
 msgid "{count, plural, one {Plugin} other {Plugins}}"
-msgstr ""
+msgstr "{count, plural, one {Plugin} other {Plugins}}"
 
 #: src/components/numeric-label/numeric-label.tsx:76
 msgid "{count, plural, one {Role} other {Roles}}"
-msgstr ""
+msgstr "{count, plural, one {Role} other {Roles}}"
 
 #: src/utilities/get_human_size.ts:14
 msgid "{n, plural, one {# byte} other {# bytes}}"
@@ -3480,3 +3479,4 @@ msgstr "{name} はキャンセルされます。"
 #: src/containers/task-management/task_detail.tsx:368
 msgid "{name} will stop running."
 msgstr "{name} は実行を停止します。"
+

@@ -4,13 +4,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: es\n"
+"Language: en\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Plural-Forms: \n"
 
 #: src/components/headers/collection-header.tsx:201
 msgid "(latest)"
@@ -243,8 +242,7 @@ msgstr "Añadir usuario"
 msgid ""
 "Adding groups provides access to all repositories in the\n"
 "\"{namespace}\" container namespace."
-msgstr ""
-"La adición de grupos proporciona acceso a todos los repositorios en el\n"
+msgstr "La adición de grupos proporciona acceso a todos los repositorios en el\n"
 "espacio de nombres del contenedor \"{namespace}\"."
 
 #: src/containers/namespace-list/namespace-list.tsx:186
@@ -341,7 +339,7 @@ msgstr "No se puede eliminar hasta que se <1/>hayan eliminado las colecciones <0
 #: src/components/headers/collection-header.tsx:697
 #: src/containers/certification-dashboard/certification-dashboard.tsx:532
 msgid "Certificate for collection \"{0} {1} v{2}\" has been successfully uploaded."
-msgstr ""
+msgstr "El estado de certificación para la colección \"{0} {1} v{2}\" se actualizó correctamente."
 
 #: src/containers/certification-dashboard/certification-dashboard.tsx:587
 msgid "Certification status for collection \"{0} {1} v{2}\" has been successfully updated."
@@ -473,20 +471,20 @@ msgstr "Colección"
 #: src/components/headers/collection-header.tsx:877
 #: src/containers/search/search.tsx:315
 msgid "Collection \"{0}\" could not be deprecated."
-msgstr ""
+msgstr "No se pudo eliminar la colección \"{0}\"."
 
 #: src/components/headers/collection-header.tsx:878
 #: src/containers/search/search.tsx:316
 msgid "Collection \"{0}\" could not be undeprecated."
-msgstr ""
+msgstr "No se pudo descargar la colección \"{0}\"."
 
 #: src/containers/namespace-detail/namespace-detail.tsx:407
 msgid "Collection \"{0}\" has been successfully deprecated."
-msgstr ""
+msgstr "La colección \"{0}\" se eliminó correctamente."
 
 #: src/containers/namespace-detail/namespace-detail.tsx:406
 msgid "Collection \"{0}\" has been successfully undeprecated."
-msgstr ""
+msgstr "La colección \"{0}\" se eliminó correctamente."
 
 #: src/components/headers/collection-header.tsx:992
 msgid "Collection \"{name} v{collectionVersion}\" could not be deleted."
@@ -701,11 +699,11 @@ msgstr "Crear un nuevo espacio de nombres"
 
 #: src/components/user-form/user-form.tsx:97
 #~ msgid "Create a password using at least 9 characters, including special characters , ex <!@$%>. Avoid using common names or expressions."
-#~ msgstr "Cree una contraseña con, al menos, 9 caracteres, incluidos los caracteres especiales, por ejemplo, <!@$%>. Evite utilizar nombres o expresiones comunes."
+#~ msgstr "Create a password using at least 9 characters, including special characters , ex <!@$%>. Avoid using common names or expressions."
 
 #: src/components/user-form/user-form.tsx:99
 msgid "Create a password using at least {minLength} characters, including special characters , ex <!@$%>. Avoid using common names or expressions."
-msgstr ""
+msgstr "Cree una contraseña con, al menos, 9 caracteres, incluidos los caracteres especiales, por ejemplo, {minLength}. Evite utilizar nombres o expresiones comunes."
 
 #: src/constants.tsx:165
 #: src/constants.tsx:205
@@ -949,7 +947,7 @@ msgstr "Pasar a desuso"
 
 #: src/containers/namespace-detail/namespace-detail.tsx:393
 msgid "Deprecation status update starting for collection \"{0}\"."
-msgstr ""
+msgstr "Actualización del estado de desaprobación a partir de la colección \"{0}\"."
 
 #: src/components/collection-detail/collection-content-list.tsx:109
 #: src/components/execution-environment/repository-form.tsx:368
@@ -977,7 +975,7 @@ msgstr "Resumen"
 
 #: src/components/repositories/local-repository-table.tsx:64
 msgid "Distribution URL"
-msgstr ""
+msgstr "Nombre de la distribución"
 
 #: src/components/repositories/local-repository-table.tsx:44
 msgid "Distribution name"
@@ -1032,7 +1030,7 @@ msgstr "Arrastre un archivo aquí o navegue para cargarlo"
 
 #: src/components/signing/upload-sign-certificate-modal.tsx:57
 msgid "Drag and drop a file or upload one'"
-msgstr ""
+msgstr "Arrastre y suelte un archivo o cargue uno\"."
 
 #: src/components/patternfly-wrappers/stateful-dropdown.tsx:78
 #: src/components/patternfly-wrappers/stateful-dropdown.tsx:89
@@ -1283,7 +1281,7 @@ msgstr "Entornos de ejecución"
 
 #: src/containers/execution-environment-list/execution_environment_list.tsx:450
 msgid "Execution environment \"{0}\" has been added successfully."
-msgstr ""
+msgstr "El entorno de ejecución \"{0}\" se agregó correctamente."
 
 #: src/containers/execution-environment/registry-list.tsx:543
 msgid "Execution environment \"{name}\" could not be indexed."
@@ -1291,7 +1289,7 @@ msgstr "No se pudo indexar el entorno de ejecución \"{name}\"."
 
 #: src/containers/execution-environment-list/execution_environment_list.tsx:448
 #~ msgid "Execution environment \"{name}\" has been added successfully."
-#~ msgstr "El entorno de ejecución \"{name}\" se agregó correctamente."
+#~ msgstr "Execution environment \"{name}\" has been added successfully."
 
 #: src/components/delete-modal/delete-execution-environment-modal.tsx:91
 msgid "Execution environment \"{selectedItem}\" could not be deleted."
@@ -1814,11 +1812,11 @@ msgstr "Revisión de necesidades"
 
 #: src/containers/certification-dashboard/certification-dashboard.tsx:344
 msgid "Needs review"
-msgstr ""
+msgstr "Revisión de necesidades"
 
 #: src/containers/certification-dashboard/certification-dashboard.tsx:343
 msgid "Needs signature and review"
-msgstr ""
+msgstr "Necesita firma y revisión"
 
 #: src/components/import-modal/import-modal.tsx:59
 msgid "New collection"
@@ -2078,7 +2076,7 @@ msgstr "Termine de editar los permisos primero."
 
 #: src/components/signing/upload-sign-certificate-modal.tsx:53
 msgid "Please select a signature file to upload."
-msgstr ""
+msgstr "Por favor, seleccione un archivo de firma para cargar."
 
 #: src/components/import-modal/import-modal.tsx:149
 msgid "Please select no more than one file."
@@ -2362,7 +2360,7 @@ msgstr "Gestión de reposiciones"
 
 #: src/components/repositories/local-repository-table.tsx:64
 #~ msgid "Repo URL"
-#~ msgstr "URL de reposiciones"
+#~ msgstr "Repo URL"
 
 #: src/components/repositories/remote-repository-table.tsx:69
 msgid "Repositories"
@@ -2426,7 +2424,7 @@ msgstr "Se guardaron los cambios en el entorno de ejecución \"{0}\"."
 
 #: src/containers/execution-environment-list/execution_environment_list.tsx:453
 #~ msgid "Saved changes to execution environment \"{name}\"."
-#~ msgstr "Se guardaron los cambios en el entorno de ejecución \"{name}\"."
+#~ msgstr "Saved changes to execution environment \"{name}\"."
 
 #: src/containers/edit-namespace/edit-namespace.tsx:277
 msgid "Saved changes to namespace \"{0}\"."
@@ -2589,11 +2587,11 @@ msgstr "Solo firmado"
 
 #: src/components/signing/sign-all-certificates-modal.tsx:67
 msgid "Signed version(s)"
-msgstr ""
+msgstr "Versión(es) firmada(s)"
 
 #: src/components/signing/sign-all-certificates-modal.tsx:85
 msgid "Signing service selector:"
-msgstr ""
+msgstr "No se encontró el servicio de firmas "
 
 #: src/containers/namespace-detail/namespace-detail.tsx:450
 msgid "Signing started for all collections in namespace \"{0}\"."
@@ -2792,7 +2790,7 @@ msgstr "Detalle de la tarea"
 
 #: src/utilities/wait-for-task.ts:10
 msgid "Task failed without error message."
-msgstr ""
+msgstr "Tarea fallida sin mensaje de error."
 
 #: src/containers/task-management/task_detail.tsx:194
 msgid "Task group"
@@ -2833,7 +2831,7 @@ msgstr "Las tareas aparecerán una vez creadas."
 #: src/components/headers/collection-header.tsx:262
 #: src/containers/search/search.tsx:333
 #~ msgid "Temporarily disabled due to sync issues. (AAH-1237)"
-#~ msgstr "Deshabilitado temporalmente debido a problemas de sincronización. (AAH-1237)"
+#~ msgstr "Temporarily disabled due to sync issues. (AAH-1237)"
 
 #: src/components/namespace-form/namespace-form.tsx:192
 msgid "Text: {0}"
@@ -2850,21 +2848,21 @@ msgstr "La URL de una fuente de contenido externa."
 #: src/components/headers/collection-header.tsx:708
 #: src/containers/certification-dashboard/certification-dashboard.tsx:544
 msgid "The certificate for \"{0} {1} v{2}\" could not be saved."
-msgstr ""
+msgstr "No se ha podido guardar el certificado de \"{0} {1} v{2}\"."
 
 #: src/components/headers/collection-header.tsx:676
 msgid "The certificate for \"{0} {1} v{2}\" is being uploaded."
-msgstr ""
+msgstr "Se está cargando el certificado para \"{0} {1} v{2}\"."
 
 #: src/components/headers/collection-header.tsx:852
 #: src/containers/search/search.tsx:293
 msgid "The collection \"{0}\" has been successfully deprecated."
-msgstr ""
+msgstr "La colección \"{0}\" se eliminó correctamente."
 
 #: src/components/headers/collection-header.tsx:853
 #: src/containers/search/search.tsx:294
 msgid "The collection \"{0}\" has been successfully undeprecated."
-msgstr ""
+msgstr "La colección \"{0}\" se eliminó correctamente."
 
 #: src/components/import-modal/import-modal.tsx:174
 msgid "The collection you have selected does not match this namespace."
@@ -2925,7 +2923,7 @@ msgstr "Esta cuenta no está configurada para gestionar ningún espacio de nombr
 
 #: src/components/signing/sign-all-certificates-modal.tsx:47
 #~ msgid "This action will affect <0>{numberOfAffected}</0> version(s)."
-#~ msgstr "Esta acción afectará a <0>{numberOfAffected}</0> versiones."
+#~ msgstr "This action will affect <0>{numberOfAffected}</0> version(s)."
 
 #: src/components/headers/collection-header.tsx:543
 msgid "This collection has been deprecated."
@@ -3017,7 +3015,7 @@ msgstr "No firmado"
 
 #: src/components/signing/sign-all-certificates-modal.tsx:74
 msgid "Unsigned version(s)"
-msgstr ""
+msgstr "Versión(es) sin firma"
 
 #: src/constants.tsx:207
 msgid "Update container information"
@@ -3047,7 +3045,7 @@ msgstr "Subir una nueva versión"
 #: src/components/signing/upload-sign-certificate-modal.tsx:33
 #: src/containers/certification-dashboard/certification-dashboard.tsx:401
 msgid "Upload signature"
-msgstr ""
+msgstr "Cargar la firma"
 
 #: src/constants.tsx:196
 #: src/constants.tsx:204
@@ -3128,19 +3126,19 @@ msgstr "El usuario \"{0}\" se eliminó correctamente."
 
 #: src/containers/group-management/group-detail.tsx:914
 msgid "User \"{0}\" has been successfully removed from group \"{name}\"."
-msgstr ""
+msgstr "El usuario \"{0}\" se eliminó correctamente del grupo \"{name}\"."
 
 #: src/containers/group-management/group-detail.tsx:921
 #~ msgid "User \"{0}\" has been successfully removed group \"{name}\"."
-#~ msgstr ""
+#~ msgstr "User \"{0}\" has been successfully removed group \"{name}\"."
 
 #: src/containers/group-management/group-detail.tsx:608
 msgid "User <0>{username}</0> will be removed from group <1>{groupname}</1>."
-msgstr ""
+msgstr "El usuario <0>{username}</0> se eliminará del grupo<1>{groupname}</1>."
 
 #: src/containers/group-management/group-detail.tsx:608
 #~ msgid "User <0>{username}</0> will be removed from group<1>{groupname}</1>."
-#~ msgstr "El usuario <0>{username}</0> se eliminará del grupo<1>{groupname}</1>."
+#~ msgstr "User <0>{username}</0> will be removed from group<1>{groupname}</1>."
 
 #: src/loaders/standalone/standalone-loader.tsx:395
 msgid "User Access"
@@ -3313,7 +3311,7 @@ msgstr "Sí, parar"
 
 #: src/components/signing/sign-all-certificates-modal.tsx:40
 #~ msgid "You are about to sign <0>all</0> versions under <1>{name}</1>."
-#~ msgstr "Está a punto de firmar <0>todas</0> las versiones de <1>{name}</1>."
+#~ msgstr "You are about to sign <0>all</0> versions under <1>{name}</1>."
 
 #: src/components/signing/sign-single-certificate-modal.tsx:40
 msgid "You are about to sign <0>version {version}</0> under <1>{name}</1>."
@@ -3321,7 +3319,7 @@ msgstr "Está a punto de firmar <0>la versión {version}</0> de <1>{name}</1>."
 
 #: src/components/signing/sign-all-certificates-modal.tsx:58
 msgid "You are about to sign <0>{numberOfAffected}</0> version(s) under <1>{name}</1>."
-msgstr ""
+msgstr "Está a punto de firmar <0>la versión {numberOfAffected}</0> de <1>{name}</1>."
 
 #: src/containers/token/token-standalone.tsx:73
 msgid "You are an SSO user. Your token will expire <0/>."
@@ -3350,7 +3348,7 @@ msgstr "No tiene acceso al Automation Hub"
 #: src/components/headers/collection-header.tsx:583
 #: src/containers/search/search.tsx:385
 msgid "You don't have rights to do this operation."
-msgstr ""
+msgstr "No tienes derechos para hacer esta operación."
 
 #: src/components/collection-detail/collection-info.tsx:88
 msgid "You have to be logged in to be able to download the tarball."
@@ -3457,19 +3455,19 @@ msgstr "{company} Logotipo"
 
 #: src/components/numeric-label/numeric-label.tsx:84
 msgid "{count, plural, one {Dependency} other {Dependencies}}"
-msgstr ""
+msgstr "{count, plural, one {Dependency} other {Dependencies}}"
 
 #: src/components/numeric-label/numeric-label.tsx:72
 msgid "{count, plural, one {Module} other {Modules}}"
-msgstr ""
+msgstr "{count, plural, one {Module} other {Modules}}"
 
 #: src/components/numeric-label/numeric-label.tsx:80
 msgid "{count, plural, one {Plugin} other {Plugins}}"
-msgstr ""
+msgstr "{count, plural, one {Plugin} other {Plugins}}"
 
 #: src/components/numeric-label/numeric-label.tsx:76
 msgid "{count, plural, one {Role} other {Roles}}"
-msgstr ""
+msgstr "{count, plural, one {Role} other {Roles}}"
 
 #: src/utilities/get_human_size.ts:14
 msgid "{n, plural, one {# byte} other {# bytes}}"
@@ -3482,3 +3480,4 @@ msgstr "{name} se cancelará."
 #: src/containers/task-management/task_detail.tsx:368
 msgid "{name} will stop running."
 msgstr "{name} dejará de funcionar."
+
